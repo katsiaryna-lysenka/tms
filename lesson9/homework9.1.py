@@ -21,14 +21,6 @@ class Auto:
         print('stop')
 
 
-
-
-example = Auto('BMW', 54, 'black', 13, 76)
-Auto.move(self)
-Auto.stop(self)
-Auto.birthday(self)
-
-
 class Track(Auto):
     def __init__(self, max_load, brand, age, color='green', mark=15, weight=99):
         super().__init__(brand, age, color, mark, weight)
@@ -55,10 +47,15 @@ class Car(Auto):
         print('move')
         print(f'max speed is {max_speed}')
 
+example = Auto('BMW', 54, 'black', 13, 76)
+Auto.move(self)
+Auto.stop(self)
+Auto.birthday(self)
 
 Track(32, 'Alfa_Romeo', 4)
 Track.load(self)
 Track.move(self)
+
 Car.move(self, 150)
 Car(130, 'Bentley', 5, 'red', 8, 200)
 Car(170, 'Acura', 3)

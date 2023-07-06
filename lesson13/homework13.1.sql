@@ -24,7 +24,7 @@ CREATE TABLE audience(
 INSERT INTO students (name, age, gender, nationality)
 VALUES
   ('Vlad', 25, 'male', 'belarus'),
-  ('Elen', 32, 'female', 'ukraian'),
+  ('Elen', 32, 'female', 'ukrainian'),
   ('Philip', 25, 'male', 'germany');
 
 -- fill audience table:
